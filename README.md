@@ -8,7 +8,7 @@ The UI is designed as an **Industrial Control Panel**, featuring:
 - **Dynamic Telemetry**: LED status indicators (Nominal vs. Alert) and glowing technical readouts.
 - **Interactive Analytics**: Enlargable high-resolution charts for variance visualization.
 
-![System Terminal](docs/images/terminal.png)
+![System Terminal](docs/images/dashboard.png)
 *Active System Terminal for data input.*
 
 ## 🚀 Key Features
@@ -17,10 +17,10 @@ The UI is designed as an **Industrial Control Panel**, featuring:
 - **Name-Enabled Pipeline**: Full support for student names throughout the data stream and UI.
 - **Data Export/Import**: Integrated demo data generator for system calibration and testing.
 
-![Dashboard Overview](docs/images/dashboard.png)
+![Dashboard Overview](docs/images/analytics.png)
 *Tactical Monitoring Log and real-time status telemetry.*
 
-![High-Resolution Analytics](docs/images/analytics.png)
+![High-Resolution Analytics](docs/images/terminal.png)
 *Detailed variance visualization with percentage readouts.*
 
 ## 🔧 Installation & Setup
