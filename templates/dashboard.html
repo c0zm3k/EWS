@@ -222,6 +222,9 @@
         safe: {{ summary.safe | tojson }}
         };
 
+        // Explicitly register the datalabels plugin for v3+
+        Chart.register(ChartDataLabels);
+
         const baseChartConfig = {
             type: 'doughnut',
             data: {
@@ -240,13 +243,20 @@
                     legend: { display: false },
                     datalabels: {
                         color: '#fff',
+                        backgroundColor: 'rgba(0, 0, 0, 0.4)',
+                        borderRadius: 4,
+                        padding: 4,
+                        anchor: 'center',
+                        align: 'center',
+                        offset: 0,
                         font: { family: "'Outfit', sans-serif", weight: 'bold', size: 10 },
                         formatter: (value, ctx) => {
-                            let sum = 0;
-                            let dataArr = ctx.chart.data.datasets[0].data;
-                            dataArr.map(data => { sum += data; });
-                            let percentage = (value * 100 / sum).toFixed(0) + "%";
-                            return percentage;
+                            const sum = ctx.chart.data.datasets[0].data.reduce((a, b) => a + b, 0);
+                            if (sum === 0) return "0%";
+                            return (value * 100 / sum).toFixed(0) + "%";
+                        },
+                        display: (ctx) => {
+                            return ctx.dataset.data[ctx.dataIndex] > 0; // Hide if 0
                         }
                     }
                 },
