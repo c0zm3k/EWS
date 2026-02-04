@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# Models and Large Data (Exclude binaries/datasets)
+models/*.pkl
+data/uploads/*
+data/static/demo_students.xlsx
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Assistant metadata
+.gemini/
+.agent/
+brain/
+walkthrough.md
+task.md
+implementation_plan.md
