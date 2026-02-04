@@ -8,11 +8,20 @@ The UI is designed as an **Industrial Control Panel**, featuring:
 - **Dynamic Telemetry**: LED status indicators (Nominal vs. Alert) and glowing technical readouts.
 - **Interactive Analytics**: Enlargable high-resolution charts for variance visualization.
 
+![System Terminal](C:/Users/LENOVO/.gemini/antigravity/brain/baa3ddde-fb43-4249-852f-a9a2fd509f53/media__1770223052787.png)
+*Active System Terminal for data input.*
+
 ## 🚀 Key Features
 - **Predictive Engine**: Analyzes Attendance, Midterm Scores, and CGPA to determine unit risk probability.
 - **Unit Diagnostic Panels**: Individual high-fidelity readouts for every student, featuring "System Tech Notes" and personalized monikers.
 - **Name-Enabled Pipeline**: Full support for student names throughout the data stream and UI.
 - **Data Export/Import**: Integrated demo data generator for system calibration and testing.
+
+![Dashboard Overview](C:/Users/LENOVO/.gemini/antigravity/brain/baa3ddde-fb43-4249-852f-a9a2fd509f53/media__1770223052761.png)
+*Tactical Monitoring Log and real-time status telemetry.*
+
+![High-Resolution Analytics](C:/Users/LENOVO/.gemini/antigravity/brain/baa3ddde-fb43-4249-852f-a9a2fd509f53/media__1770223052790.png)
+*Detailed variance visualization with percentage readouts.*
 
 ## 🔧 Installation & Setup
 
